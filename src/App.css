@@ -36,3 +36,52 @@
     transform: rotate(360deg);
   }
 }
+
+main {
+  font-family: "Trebuchet MS";
+  grid-area: main;
+  position: relative;
+  min-height: 70% !important;
+}
+
+.footer {
+  grid-area: footer;
+  /* background-color: #072a40; */
+  color: #f9f7f0;
+
+  /* transform: translate(0%, -3.75976543%); */
+}
+h1 {
+  font-weight: 600;
+  font-size: 18px;
+  background: #fff;
+  color: #000;
+  padding: 10px;
+  margin: 2rem;
+  line-height: 1.7em;
+  box-shadow: 0 2px 10px 0 #cac9c9;
+  text-align: center;
+  user-select: none;
+  cursor: pointer;
+  border-left: 20px solid #ff5f00;
+  border-right: 20px solid #ff5f00;
+  border-radius: 5px 55px 5px 55px;
+}
+
+.style {
+  font-weight: 600;
+  font-size: 18px;
+  background: #fff;
+  color: #000;
+  padding: 10px;
+  margin: 2rem;
+  max-width: 95%;
+  line-height: 1.7em;
+  box-shadow: 0 2px 10px 0 #cac9c9;
+  text-align: center;
+  user-select: none;
+  cursor: pointer;
+  border-left: 20px solid #ff5f00;
+  border-right: 20px solid #ff5f00;
+  border-radius: 55px;
+}
